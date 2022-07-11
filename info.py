@@ -3,7 +3,7 @@ from instagrapi import Client
 import sys
 
 cl = Client()
-cl.login(username='robin_lachand', password='robinou2007')
+cl.login(username='**********', password='********')
 account = cl.account_info().dict()
 
 if len(sys.argv) < 2:
